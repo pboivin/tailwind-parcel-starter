@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 40 20" width="800" height="400">
+<g fill="none" stroke-width="1.2">
+<circle r="18.9" stroke="#d00"/>
+<circle r="17.9" stroke="#fe6230"/>
+<circle r="16.9" stroke="#fef600"/>
+<circle r="15.9" stroke="#0b0"/>
+<circle r="14.9" stroke="#009bfe"/>
+<circle r="13.9" stroke="#000083"/>
+</g>
+<circle fill="none" r="13" stroke="#30009b" stroke-width="1"/>
+</svg>

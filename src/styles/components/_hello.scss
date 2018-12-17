@@ -1,0 +1,23 @@
+.hello {
+  position: relative;
+  margin: $spacer * 3;
+  text-align: center;
+}
+
+.hello__title {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0.1em;
+  left: 0;
+  color: $title-color;
+  font-size: 1.5em;
+
+  @include media-breakpoint-up(sm) {
+    bottom: 0.5em;
+    font-size: 2em;
+  }
+  @include media-breakpoint-up(md) {
+    bottom: 1em;
+  }
+}
