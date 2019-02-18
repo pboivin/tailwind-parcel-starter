@@ -2,8 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-$title-color: #30009b;
-
-h1 {
-  color: $title-color;
-}
+@import "common/variables";
+@import "common/base";

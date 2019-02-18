@@ -7,6 +7,7 @@
   "devDependencies": {
     "parcel-bundler": "^1.10.3",
     "parcel-plugin-imagemin": "^2.1.1",
+    "rucksack-css": "^1.0.2",
     "sass": "^1.17.0",
     "tailwindcss": "^0.7.3"
   },
