@@ -13,12 +13,6 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 - Image optimization through [`parcel-plugin-imagemin`](https://github.com/DeMoorJasper/parcel-plugin-imagemin)
 
 
-#### TODO
-
-- Add rucksack-css as example postcss plugin
-- Add `static/` folder
-
-
 ### Requirements
 
 - Node.js >= 6
