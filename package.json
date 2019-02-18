@@ -12,9 +12,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-source-maps",
-    "clean": "rm -rf .cache dist"
+    "dev": "npm run clean && parcel src/index.html",
+    "build": "npm run clean && npm run static && parcel build src/index.html --no-source-maps",
+    "clean": "rm -rf .cache dist",
+    "static": "mkdir -p dist && cp src/static/* dist/"
   },
   "repository": {
     "type": "git",
