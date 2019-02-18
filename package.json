@@ -1,5 +1,5 @@
 {
-  "name": "parcel-starter",
+  "name": "tailwind-parcel-starter",
   "version": "1.0.0",
   "description": "Front-end starter kit using the Parcel bundler",
   "main": "index.js",
@@ -7,6 +7,7 @@
   "devDependencies": {
     "parcel-bundler": "^1.10.3",
     "parcel-plugin-imagemin": "^2.1.1",
+    "sass": "^1.17.0",
     "tailwindcss": "^0.7.3"
   },
   "scripts": {
@@ -17,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pboi20/parcel-starter.git"
+    "url": "git+https://github.com/pboi20/tailwind-parcel-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pboi20/parcel-starter/issues"
+    "url": "https://github.com/pboi20/tailwind-parcel-starter/issues"
   },
-  "homepage": "https://github.com/pboi20/parcel-starter#readme"
+  "homepage": "https://github.com/pboi20/tailwind-parcel-starter#readme"
 }

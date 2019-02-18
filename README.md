@@ -8,12 +8,15 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 
 - Zero configuration (Parcel defaults)
 - ES6+ project structure to single ES5 bundle
-- Single CSS bundle
 - Basic Tailwind setup ready to be customized
+- SASS/SCSS support
 - Image optimization through [`parcel-plugin-imagemin`](https://github.com/DeMoorJasper/parcel-plugin-imagemin)
 
+
 #### TODO
-- Add SASS/SCSS support
+
+- Add rucksack-css as example postcss plugin
+- Add `static/` folder
 
 
 ### Requirements
