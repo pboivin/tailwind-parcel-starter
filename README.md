@@ -33,11 +33,15 @@ Alternatively, you could download the project as a [ZIP Archive](https://github.
 
 #### `npm run dev`
 
-Runs the project in development mode with hot reloading.
+Runs the project in development mode with hot reloading on `http//localhost:1234`.
 
 #### `npm run build`
 
 Builds the project for production to the `dist` folder.
+
+#### `npm run serve`
+
+Serve the production build on `http://localhost:8080`.
 
 
 ### Disclaimer

@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "http-server": "^0.11.1",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-imagemin": "^3.0.0",
     "rucksack-css": "^1.0.2",
@@ -15,6 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run clean && parcel src/index.html",
     "build": "npm run clean && npm run static && parcel build src/index.html --no-source-maps",
+    "serve": "http-server dist",
     "clean": "rm -rf .cache dist",
     "static": "mkdir -p dist && cp src/static/* dist/"
   },
