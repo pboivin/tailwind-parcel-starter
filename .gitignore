@@ -15,7 +15,7 @@ yarn-error.log*
 
 # Editor
 *.swp
-.vimproject
+.vimrc
 
 # System
 .DS_Store
