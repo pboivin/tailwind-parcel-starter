@@ -5,11 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.10.3",
-    "parcel-plugin-imagemin": "^2.1.1",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-imagemin": "^3.0.0",
     "rucksack-css": "^1.0.2",
-    "sass": "^1.17.0",
-    "tailwindcss": "^0.7.3"
+    "sass": "^1.22.9",
+    "tailwindcss": "^0.7.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
