@@ -5,7 +5,7 @@ var autoprefixer = require('autoprefixer');
 module.exports = {
   plugins: [
     rucksack(),
-    tailwindcss('tailwind.js'),
+    tailwindcss('tailwind.config.js'),
     autoprefixer
   ]
 }
