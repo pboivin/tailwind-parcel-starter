@@ -14,9 +14,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run clean && parcel src/index.html",
+    "dev": "npm run clean && parcel -p 8000 src/index.html",
     "build": "npm run clean && npm run static && parcel build src/index.html --no-source-maps",
-    "serve": "http-server dist",
+    "serve": "http-server -p 8000 dist",
     "clean": "rm -rf .cache dist",
     "static": "mkdir -p dist && cp src/static/* dist/"
   },
