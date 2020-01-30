@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import "common/variables";
+
+@tailwind base;
+
 @import "common/base";
+
+@tailwind components;
+
+@tailwind utilities;
