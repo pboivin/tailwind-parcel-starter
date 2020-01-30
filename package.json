@@ -2,7 +2,9 @@
   "name": "tailwind-parcel-starter",
   "version": "1.0.0",
   "description": "Front-end starter kit using the Parcel bundler",
-  "main": "index.js",
+  "homepage": "https://github.com/pboi20/tailwind-parcel-starter#readme",
+  "author": "Patrick Boivin",
+  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
@@ -13,22 +15,10 @@
     "tailwindcss": "^1.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run clean && parcel -p 8000 src/index.html",
     "build": "npm run clean && npm run static && parcel build src/index.html --no-source-maps",
     "serve": "http-server -p 8000 dist",
     "clean": "rm -rf .cache dist",
     "static": "mkdir -p dist && cp src/static/* dist/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pboi20/tailwind-parcel-starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pboi20/tailwind-parcel-starter/issues"
-  },
-  "homepage": "https://github.com/pboi20/tailwind-parcel-starter#readme"
+  }
 }
