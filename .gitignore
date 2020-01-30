@@ -1,5 +1,6 @@
 # Project
 dist/
+public/dist/
 
 # Node/NPM
 node_modules/
