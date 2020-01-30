@@ -32,7 +32,7 @@ Alternatively, you could download the project as a [ZIP Archive](https://github.
 
 #### `npm run dev`
 
-Runs the project in development mode with hot reloading on `http//localhost:8000`.
+Runs the project in development mode with hot reloading on `http://localhost:8000`.
 
 #### `npm run build`
 
