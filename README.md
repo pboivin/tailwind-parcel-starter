@@ -14,7 +14,7 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 
 ### Requirements
 
-- Node.js >= 8
+- Node.js >= 10
 
 
 ### Getting Started
