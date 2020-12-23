@@ -12,6 +12,7 @@ yarn-debug.log*
 yarn-error.log*
 .eslintcache
 .cache
+.parcel-cache
 package-lock.json
 
 # Editor

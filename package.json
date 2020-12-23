@@ -2,12 +2,11 @@
   "name": "tailwind-parcel-starter",
   "version": "1.0.0",
   "description": "Front-end starter kit using the Parcel bundler",
-  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "http-server": "^0.11.1",
-    "parcel-bundler": "^1.12.3",
+    "parcel": "^2.0.0-beta.1",
     "rucksack-css": "^1.0.2",
     "sass": "^1.22.9",
     "tailwindcss": "^1.1.1"
