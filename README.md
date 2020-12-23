@@ -9,12 +9,12 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 - Zero configuration (Parcel defaults)
 - ES6+ project structure to single ES5 bundle
 - Basic Tailwind setup ready to be customized
-- SASS/SCSS support
+- Basic PostCSS setup with imports and nesting
 
 
 ### Requirements
 
-- Node.js >= 10
+- Node.js >= 14
 
 
 ### Getting Started
