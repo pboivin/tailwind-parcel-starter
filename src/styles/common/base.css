@@ -1,0 +1,15 @@
+h1 {
+    @apply text-lg;
+}
+
+@screen md {
+    h1 {
+        @apply text-3xl;
+    }
+}
+
+@screen lg {
+    h1 {
+        @apply text-5xl;
+    }
+}
