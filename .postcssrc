@@ -2,6 +2,7 @@
   "plugins": {
     "postcss-import": {},
     "tailwindcss": {},
+    "postcss-nesting": {},
     "autoprefixer": {}
   }
 }

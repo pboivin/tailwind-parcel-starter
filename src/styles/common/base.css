@@ -1,15 +1,11 @@
 h1 {
     @apply text-lg;
-}
 
-@screen md {
-    h1 {
+    @screen md {
         @apply text-3xl;
     }
-}
 
-@screen lg {
-    h1 {
+    @screen lg {
         @apply text-5xl;
     }
 }
