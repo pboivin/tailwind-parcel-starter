@@ -16,10 +16,10 @@
   },
   "scripts": {
     "dev": "npm run clean && npm run dev:watch",
-    "dev:watch": "parcel watch -d public/dist src/scripts/*.js src/styles/*.scss",
-    "dev:build": "parcel build -d public/dist src/scripts/*.js src/styles/*.scss",
+    "dev:watch": "NODE_ENV=development parcel watch -d public/dist src/scripts/*.js src/styles/*.scss",
+    "dev:build": "NODE_ENV=development parcel build -d public/dist src/scripts/*.js src/styles/*.scss",
     "build": "npm run clean && npm run prod:build",
-    "prod:build": "parcel build -d public/dist src/scripts/*.js src/styles/*.scss --no-source-maps",
+    "prod:build": "NODE_ENV=production parcel build -d public/dist src/scripts/*.js src/styles/*.scss --no-source-maps",
     "serve": "http-server -p 8000 public",
     "clean": "rm -rf .cache public/dist"
   }
