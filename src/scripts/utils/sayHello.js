@@ -1,5 +1,3 @@
-const message = `Hello JS!`;
-
-export default function sayHello() {
-  console.log(message);
+export default function sayHello(name) {
+  console.log(`Hello ${name}!`);
 }
