@@ -6,8 +6,8 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 
 ### Features
 
-- Zero configuration (Parcel defaults)
-- ES6+ project structure to single ES5 bundle
+- Minimal configuration (Parcel defaults through NPM scripts)
+- ES6+ project structure with module/nomodule bundles
 - Basic Tailwind setup ready to be customized
 - Basic PostCSS setup with imports and nesting
 
@@ -20,12 +20,12 @@ A basic front-end starter template using the [Parcel bundler](https://github.com
 ### Getting Started
 
 ```
-git clone https://github.com/pboi20/tailwind-parcel-starter.git
+git clone https://github.com/pboivin/tailwind-parcel-starter.git
 cd tailwind-parcel-starter
 npm install
 ```
 
-Alternatively, you could download the project as a [ZIP Archive](https://github.com/pboi20/tailwind-parcel-starter/archive/master.zip).
+Alternatively, you could download the project as a [ZIP Archive](https://github.com/pboivin/tailwind-parcel-starter/archive/master.zip).
 
 
 ### Available Scripts
@@ -47,4 +47,4 @@ Serve the production build on `http://localhost:8000`.
 
 This is a work in progress :)
 
-[MIT License](https://github.com/pboi20/tailwind-parcel-starter/blob/master/LICENSE)
+[MIT License](https://github.com/pboivin/tailwind-parcel-starter/blob/master/LICENSE)
