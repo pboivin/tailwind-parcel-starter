@@ -1,16 +1,15 @@
 {
   "name": "tailwind-parcel-starter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Front-end starter kit using the Parcel bundler",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
-    "http-server": "^13.0.0",
-    "parcel": "^2.0.0-rc.0",
-    "postcss": "^8.2.1",
+    "http-server": "^13.1.0",
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.0",
     "postcss-import": "^14.0.0",
     "postcss-nesting": "^8.0.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.2.0"
   },
   "scripts": {
     "dev": "npm run clean && PARCEL_BUILD_ENV=development parcel serve -p 8000 src/index.html",
